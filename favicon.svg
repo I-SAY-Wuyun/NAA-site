@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="九局">
+  <title>九局</title>
+  <!-- 宣纸底：与站点 --paper 同色；方印微歪，和扉页/顶栏那几枚小印章一致 -->
+  <rect x="0" y="0" width="64" height="64" rx="3" fill="#f2eee5" />
+  <g transform="rotate(-2 32 32)">
+    <rect x="5.5" y="5.5" width="53" height="53" fill="none" stroke="#96382a" stroke-width="3.4" />
+    <!-- 黑体粗笔 + 同色细描边：16px 标签页里「局」才不会糊成一团 -->
+    <g fill="#96382a" stroke="#96382a" stroke-width="1.1" stroke-linejoin="round" paint-order="stroke"
+       font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Hiragino Sans GB',sans-serif"
+       font-weight="700" font-size="27">
+      <!-- 「九」在右上、「局」在左下，错落如印章字位 -->
+      <text x="30" y="32">九</text>
+      <text x="7" y="55">局</text>
+    </g>
+  </g>
+</svg>
